@@ -4,7 +4,7 @@ const pool = new Pool({
     port: 5432,
     database: 'blimp',
     user: 'postgres',
-    password: '1020315b'
+    password: '{your database password}'
 });
 
 module.exports = pool;
